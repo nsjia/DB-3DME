@@ -40,7 +40,7 @@ Prompt Adherence Rating: 3
 
 ```bash
 git clone https://github.com/nsjia/DB-3DME.git
-cd 3DEval-dataset
+cd DB-3DME
 ```
 
 ---
