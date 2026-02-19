@@ -37,10 +37,9 @@ Prompt Adherence Rating: 3
 
 ### Clone the Repository
 
-Make sure you have access to `github.roblox.com`:
 
 ```bash
-git clone https://github.rbx.com/njia/3DEval-dataset.git
+git clone https://github.com/nsjia/DB-3DME.git
 cd 3DEval-dataset
 ```
 
@@ -58,7 +57,7 @@ df = pd.read_csv("dataset.csv")
 
 ### Convert GIFs to Grid Images
 
-The script `main/gif_to_grid.py` converts a 3D asset GIF into a single grid image for convenient visualization and evaluation.
+The script `gif_to_grid.py` converts a 3D asset GIF into a single grid image for convenient visualization and evaluation.
 
 The script supports:
 - Local GIF files in the repository
@@ -67,7 +66,7 @@ The script supports:
 #### Example
 
 ```bash
-python main/gif_to_grid.py \
+python gif_to_grid.py \
   --gif_path GIFs/output-0.gif \
   --rows 4 \
   --cols 6 \
@@ -81,14 +80,6 @@ This command converts the input GIF into a `4 × 6` frame grid and saves it as a
 
 ## For Review
 
-We intend to make this repository public to support future research and broader community use. Prior to release, the following assets require careful review and validation:
-
-- GIF visualizations in the `GIFs/` directory
-
-- Annotation rubrics provided to human evaluators at https://docs.google.com/document/d/1Bd2jPtJRb2NcpjwvW0exzBCZOOUKzpnaICjA1jf_Amk/edit?usp=sharing
-
-- Human evaluation results in `dataset.csv`
-
-We sincerely appreciate everyone’s efforts and welcome any feedback or comments.
+This repo is prepared for paper under review at KDD 2026 D&B track. 
 
 ---
