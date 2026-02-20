@@ -22,6 +22,9 @@ This dataset is intended to facilitate research on reliable evaluation protocols
   Directory containing GIF visualizations of the 3D assets.  
   File names correspond to the `gif_path` column in the CSV file.
 
+- **`Released rubrics.pdf`**
+  Rubrics for human annotators to evaluate the 3D meshes.
+
 Below we present an example of the dataset.
 ![Prompt: SUV; Geometry Rating: 2; Prompt Adherence Rating: 3](GIFs/output-203.gif)
 
