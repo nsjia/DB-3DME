@@ -1,7 +1,9 @@
-# 3DEval-dataset
+# DB-3DME: From Dataset to Benchmark for Human-aligned Automatic 3D Mesh Evaluation
 ![3D Evaluation Pipeline](3DEVAL-WORKFLOW.png)
 
 ---
+
+This repository provides the dataset described in the paper. 
 
 The **dataset.csv** provides a benchmark dataset for evaluating 3D mesh. It contains human annotations for **Geometry** and **Prompt Adherence**, along with the corresponding text prompts and GIF visualizations of the generated 3D assets.
 
@@ -81,8 +83,3 @@ This command converts the input GIF into a `4 × 6` frame grid and saves it as a
 ---
 
 
-## For Review
-
-This repo is prepared for paper under review at KDD 2026 D&B track. 
-
----
