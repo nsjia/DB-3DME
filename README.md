@@ -5,9 +5,7 @@
 
 This repository provides the dataset described in the paper. 
 
-The **dataset.csv** provides a benchmark dataset for evaluating 3D mesh. It contains human annotations for **Geometry** and **Prompt Adherence**, along with the corresponding text prompts and GIF visualizations of the generated 3D assets.
-
-This dataset is intended to facilitate research on reliable evaluation protocols for modern 3D generative models.
+The **dataset.csv** provides a benchmark dataset for evaluating 3D mesh. It contains human annotations for **Geometry** and **Prompt Adherence**, along with the corresponding text prompts and GIF visualizations of the generated 3D assets. It is intended to facilitate research on reliable evaluation protocols for modern 3D generative models.
 
 ---
 
