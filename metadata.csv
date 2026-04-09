@@ -1,4 +1,4 @@
-Prompt,gif_path,Geometry Rating,Prompt Adherence Rating
+Prompt,file_name,Geometry Rating,Prompt Adherence Rating
 fireplace,GIFs/output-0.gif,2,3
 column,GIFs/output-1.gif,2,3
 plant,GIFs/output-2.gif,2,3

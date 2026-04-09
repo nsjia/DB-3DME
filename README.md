@@ -5,13 +5,13 @@
 
 This repository provides the dataset described in the paper. 
 
-The **dataset.csv** provides a benchmark dataset for evaluating 3D mesh. It contains human annotations for **Geometry** and **Prompt Adherence**, along with the corresponding text prompts and GIF visualizations of the generated 3D assets. It is intended to facilitate research on reliable evaluation protocols for modern 3D generative models.
+The **metadata.csv** provides a benchmark dataset for evaluating 3D mesh. It contains human annotations for **Geometry** and **Prompt Adherence**, along with the corresponding text prompts and GIF visualizations of the generated 3D assets. It is intended to facilitate research on reliable evaluation protocols for modern 3D generative models.
 
 ---
 
 ## Dataset Contents
 
-- **`dataset.csv`**  
+- **`metadata.csv`**  
   Metadata and human evaluation results for each 3D asset:
   - `Prompt`: Text prompt used to generate the 3D asset.
   - `gif_path`: File name of the GIF visualization of the 3D mesh.
@@ -53,7 +53,7 @@ cd DB-3DME
 ```python
 import pandas as pd
 
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("metadata.csv")
 ```
 
 ---
