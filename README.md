@@ -14,7 +14,7 @@ The **metadata.csv** provides a benchmark dataset for evaluating 3D mesh. It con
 - **`metadata.csv`**  
   Metadata and human evaluation results for each 3D asset:
   - `Prompt`: Text prompt used to generate the 3D asset.
-  - `gif_path`: File name of the GIF visualization of the 3D mesh.
+  - `file_name`: File name of the GIF visualization of the 3D mesh.
   - `Geometry Rating`: Human rating of geometric quality.
   - `Prompt Adherence Rating`: Human rating of how well the mesh aligns with the prompt.
 
